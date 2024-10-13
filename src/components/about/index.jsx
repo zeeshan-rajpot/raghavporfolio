@@ -32,12 +32,12 @@ const index = () => {
               </div>
               {/* image for mobile menu */}
 
-              <div className="col-12">
+              <div className="col-12 mx-auto">
                 <PersonalInfo />
               </div>
               {/* End personal info */}
 
-              <div className="col-12 mt-1">
+              <div className="col-12 mt-5">
                 <a className="button" href={cv} download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
@@ -56,42 +56,22 @@ const index = () => {
         </div>
         {/* End .row */}
 
-        {/* <hr className="separator" /> */}
+       <hr className="separator" /> 
 
         {/* Skills Starts */}
-        {/* <div className="row">
+         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
               My Skills
             </h3>
           </div>
           <Skills />
-        </div> */}
-        {/* Skills Ends */}
+        </div> 
+       {/* Skills Ends  */}
 
         <hr className="separator mt-1" />
 
-        {/* Experience & Education Starts */}
-        <div className="row">
-          <div className="col-12">
-            <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
-              Experience <span>&</span> Education
-            </h3>
-          </div>
-          <div className="col-lg-6 m-15px-tb">
-            <div className="resume-box">
-              <Experience />
-            </div>
-          </div>
-          <div className="col-lg-6 m-15px-tb">
-            <div className="resume-box">
-              <Education />
-            </div>
-          </div>
-        </div>
-        {/*  Experience & Education Ends */}
 
-        {/* About Me Section */}
         <div className=" container col-lg-12 m-15px-tb">
           <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
             1. Introduction / Professional Summary
@@ -107,7 +87,7 @@ const index = () => {
 
             I aspire to work in environments where collaboration, innovation, and empathy drive the development of impactful solutions. This placement has inspired me to explore roles where I can continue building software that improves both clinical workflows and patient outcomes.
           </p>
-          <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
+          {/* <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
             3. Educational Background
           </h1>
           <li>
@@ -141,8 +121,34 @@ const index = () => {
           </li>
           <li>
           Managed <strong>data privacy</strong> and compliance by developing the application for local use on Queensland Health devices.
-          </li>
+          </li> */}
         </div>
+
+
+
+
+        {/* Experience & Education Starts */}
+        <div className="row my-5">
+          <div className="col-12">
+            <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
+              Experience <span>&</span> Education
+            </h3>
+          </div>
+          <div className="col-lg-6 m-15px-tb">
+            <div className="resume-box">
+              <Experience />
+            </div>
+          </div>
+          <div className="col-lg-6 m-15px-tb">
+            <div className="resume-box">
+              <Education />
+            </div>
+          </div>
+        </div>
+        {/*  Experience & Education Ends */}
+
+        {/* About Me Section */}
+    
       </div>
     </section>
   );

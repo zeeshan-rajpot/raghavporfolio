@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import heroImg from "../../assets/img/hero/dark.jpg";
-import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
+// import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: heroImg,
-  heroMobileImage: heroImgMobile,
+  heroImage: "/DSC05004s.jpg",
+  heroMobileImage: "/DSC05004scopy.jpg",
   heroTitleName: "Raghav Kohli",
   heroDesignation: "Software Developer",
   heroDescriptions: `Welcome to my professional portfolio! This site showcases the skills, experiences, and achievements I gained during my WIL placement at Gold Coast Health – Child Development Service. Explore my work to see how I developed the Digital Mealtime Puzzle to help clinicians manage dietary assessments efficiently and securely.`,
@@ -34,6 +34,7 @@ const Hero = () => {
           <div>
             <img
               src={heroContent.heroMobileImage}
+              // src="/DSC05004s.jpg"
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
