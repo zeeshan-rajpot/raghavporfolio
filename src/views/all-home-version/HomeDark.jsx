@@ -12,7 +12,7 @@ import SwitchDark from "../../components/switch/SwitchDark";
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
-  { icon: "fa-briefcase", menuName: "Portfolio" },
+  { icon: "fa-briefcase", menuName: "Placement" },
   { icon: "fa-envelope-open", menuName: "Contact" },
   { icon: "fa-comments", menuName: "Blog" },
 ];
@@ -74,7 +74,7 @@ const HomeDark = () => {
               data-aos-duration="1200"
             >
               <h1>
-                my <span>portfolio</span>
+                WIL <span>Placement</span>
               </h1>
               <span className="title-bg">works</span>
             </div>
