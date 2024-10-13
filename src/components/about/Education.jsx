@@ -2,26 +2,26 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "March 2023 – October 2024",
+    degree: "Master of Information Technology",
+    institute: "Griffith University",
+    details: `Focus: Software Development, Data Management, and Secure Application Design
+During this program, I honed my skills in ull-stack development, working extensively with React.js, Node.js, and MySQL . My coursework and projects prepared me to take on complex technical challenges, such as those I encountered during my WIL placement.`,
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "August 2018 – July 2021",
+    degree: "Bachelor of Computer Applications",
+    institute: "Panjab University",
+    details: `Focus: Web Development, Programming Fundamentals, and Database Management
+This program laid the foundation for my coding and problem-solving skills, setting the stage for my journey into software development.`,
   },
-  {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
-  },
+  // {
+  //   year: "2009",
+  //   degree: "BACHELOR DEGREE ",
+  //   institute: "TUNIS HIGH SCHOOL",
+  //   details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
+  //       elit, sed do eiusmod tempor duntt`,
+  // },
 ];
 
 const Education = () => {

@@ -133,7 +133,7 @@ const tabContent = {
 
       {/* User Authentication System */}
       <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
-        1.1. User Authentication System (Login and Signup)
+      I. User Authentication System (Login and Signup)
       </h1>
       <p className="open-sans-font mb-4">
         <strong>Purpose:</strong> Provide secure access to the application, ensuring that only authorized clinicians can log in and access child data.
@@ -147,7 +147,7 @@ const tabContent = {
 
       {/* Interactive Mealtime Puzzle */}
       <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
-        1.2. Interactive Mealtime Puzzle Pyramid
+      II. Interactive Mealtime Puzzle Pyramid
       </h1>
       <p className="open-sans-font mb-4">
         <strong>Purpose:</strong> Enable clinicians to interact with the 17 domains of the Mealtime Pyramid, each representing an aspect of child development.
@@ -161,7 +161,7 @@ const tabContent = {
 
       {/* Child Information and History Management */}
       <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
-        1.3. Child Information and History Management System
+      III. Child Information and History Management System
       </h1>
       <p className="open-sans-font mb-4">
         <strong>Purpose:</strong> Collect, store, and update essential child information across multiple sessions, providing clinicians with complete access to a child’s background.
@@ -175,7 +175,7 @@ const tabContent = {
 
       {/* Multi-Session Tracking and Automated Report Generation */}
       <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
-        1.4. Multi-Session Tracking and Automated Report Generation
+      IV. Multi-Session Tracking and Automated Report Generation
       </h1>
       <p className="open-sans-font mb-4">
         <strong>Purpose:</strong> Track assessments over multiple sessions and generate comprehensive reports that summarize child progress and clinician recommendations.
@@ -194,7 +194,7 @@ const tabContent = {
 
       {/* Role Selection Modal */}
       <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
-        1.5. Role Selection Modal
+        V. Role Selection Modal
       </h1>
       <p className="open-sans-font mb-4">
         <strong>Purpose:</strong> Track and display the clinicians involved in each child’s assessment for accountability and transparency.
@@ -208,7 +208,7 @@ const tabContent = {
 
       {/* Local Storage and Prototype Deployment */}
       <h1 className="text-uppercase custom-title mb-0 ft-wt-600">
-        1.6. Local Storage and Prototype Deployment
+        VI. Local Storage and Prototype Deployment
       </h1>
       <p className="open-sans-font mb-4">
         <strong>Purpose:</strong> Ensure secure data handling and meet healthcare privacy standards by limiting access to authorized devices.

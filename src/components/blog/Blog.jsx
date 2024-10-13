@@ -22,7 +22,7 @@ const Blog = () => {
           >
             <article
               className="post-container"
-              onClick={() => handleModle(item?.id)}
+            // onClick={() => handleModle(item?.id)}
             >
               <div className="post-thumb">
                 <div className="d-block position-relative overflow-hidden">
@@ -37,12 +37,20 @@ const Blog = () => {
                 <div className="entry-content open-sans-font">
                   <p>{item?.description1.slice(0, 100)}</p>
                 </div>
+                <div>
+                  <button>
+                    <a href={item?.link} target="_blank" rel="noreferrer" >
+                      <i className="fa fa-github fa-2x">
+
+                      </i>
+                    </a></button>
+                </div>
               </div>
               {/* End .post-content */}
             </article>
 
             {/* Start ModalOneBlogContent */}
-            <Modal
+            {/* <Modal
               isOpen={isOpen}
               onRequestClose={() => setIsOpen(false)}
               contentLabel="My dialog"
@@ -57,18 +65,17 @@ const Blog = () => {
                 >
                   <img src={cancelImg} alt="close icon" />
                 </button>
-                {/* End close icon */}
+             
 
                 <div className="box_inner blog-post">
-                  {/* Article Starts */}
-                  <article>
+    <article>
                     <div className="title-section text-left text-sm-center">
                       <h1>
                         Post <span>Details</span>
                       </h1>
                       <span className="title-bg">posts</span>
                     </div>
-                    {/* Meta Starts */}
+                  
 
                     <div className="meta open-sans-font">
                       <span>
@@ -81,8 +88,7 @@ const Blog = () => {
                         <i className="fa fa-tags"></i> {singleData.tag}
                       </span>
                     </div>
-                    {/* Meta Ends */}
-                    {/* Article Content Starts */}
+                 
 
                     <h1>{singleData?.title}</h1>
                     <img
@@ -101,12 +107,12 @@ const Blog = () => {
                       <p>{singleData?.description3}</p>
                       <p>{singleData?.description4}</p>
                     </div>
-                    {/* Article Content Ends */}
+                    
                   </article>
-                  {/* Article Ends */}
+                  
                 </div>
               </div>
-            </Modal>
+            </Modal> */}
             {/* End  ModalOneBlogContent */}
           </div>
         ))}

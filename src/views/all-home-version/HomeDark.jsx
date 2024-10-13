@@ -8,13 +8,15 @@ import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import SwitchDark from "../../components/switch/SwitchDark";
+import Projects from "../../components/projects/projects";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Placement" },
+  // { icon: "fa-briefcase", menuName: "Projects" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  { icon: "fa-briefcase", menuName: "Projects" },
 ];
 
 const HomeDark = () => {
@@ -76,11 +78,15 @@ const HomeDark = () => {
               <h1>
                 WIL <span>Placement</span>
               </h1>
-              <span className="title-bg">works</span>
+              {/* <span className="title-bg">works</span> */}
             </div>
             {/* End title */}
             <Portfolio />
-          </TabPanel>
+          </TabPanel>  
+          
+          
+          
+        
           {/* Portfolio Content Ends */}
 
           {/* Contact Content Starts */}
@@ -138,9 +144,9 @@ const HomeDark = () => {
               data-aos-duration="1200"
             >
               <h1>
-                my <span>blog</span>
+              Projects
               </h1>
-              <span className="title-bg">posts</span>
+              <span className="title-bg">Projects</span>
             </div>
             <div
               className="container"
