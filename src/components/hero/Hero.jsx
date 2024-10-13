@@ -8,12 +8,9 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "Raghav Kohli",
+  heroDesignation: "Software Developer",
+  heroDescriptions: `Welcome to my professional portfolio! This site showcases the skills, experiences, and achievements I gained during my WIL placement at Gold Coast Health – Child Development Service. Explore my work to see how I developed the Digital Mealtime Puzzle to help clinicians manage dietary assessments efficiently and securely.`,
   heroBtn: "more about me",
 };
 
@@ -29,9 +26,8 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + heroContent.heroImage
-            })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage
+              })`,
           }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
@@ -46,12 +42,13 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            <button className="button" onClick={toggleModalOne}>
+            {/* <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
-            </button>
+            </button> */}
           </div>
         </div>
+
       </div>
       {/* End home-details-container */}
 

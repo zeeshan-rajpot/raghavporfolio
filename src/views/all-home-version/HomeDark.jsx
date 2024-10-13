@@ -22,7 +22,7 @@ const HomeDark = () => {
 
   return (
     <div className="yellow">
-      <SwitchDark />
+      {/* <SwitchDark /> */}
       {/* End Switcher */}
       <Tabs>
         <div className="header">
