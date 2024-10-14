@@ -9,10 +9,11 @@ const heroContent = {
   heroImage: "/DSC05004s.jpg",
   heroMobileImage: "/DSC05004scopy.jpg",
   heroTitleName: "Raghav Kohli",
-  heroDesignation: "Software Developer",
-  heroDescriptions: `Welcome to my professional portfolio! This site showcases the skills, experiences, and achievements I gained during my WIL placement at Gold Coast Health – Child Development Service. Explore my work to see how I developed the Digital Mealtime Puzzle to help clinicians manage dietary assessments efficiently and securely.`,
+  heroDesignation: "A Software Developer",
+  heroDescriptions: `With a strong foundation in modern software development practices and a knack for solving real-world problems through code, I specialize in building efficient, scalable, and user-friendly applications. I enjoy working with technologies like JavaScript, React, and Node.js, focusing on both frontend and backend development.Driven by continuous learning and innovation, I take pride in developing software that makes an impact. Whether it's creating sleek user interfaces or architecting complex backend services, I am always eager to take on new challenges. Explore my portfolio to see how I transform ideas into working solutions!`,
   heroBtn: "more about me",
 };
+
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ const Hero = () => {
               alt="hero man"
             />
             <h1 className="text-uppercase poppins-font">
-              I'm {heroContent.heroTitleName}.
+              Hi, I'm {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>

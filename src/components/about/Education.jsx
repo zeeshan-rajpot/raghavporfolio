@@ -2,18 +2,16 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "March 2023 – October 2024",
+    year: "March 2023 – Present",
     degree: "Master of Information Technology",
     institute: "Griffith University",
-    details: `Focus: Software Development, Data Management, and Secure Application Design
-During this program, I honed my skills in ull-stack development, working extensively with React.js, Node.js, and MySQL . My coursework and projects prepared me to take on complex technical challenges, such as those I encountered during my WIL placement.`,
+    details: `During this program, I focused on software development, data management, and secure application design. I developed skills in full-stack development, working extensively with technologies such as React.js, Node.js, and MySQL. Through coursework and projects, I tackled complex technical challenges, including those encountered during my WIL placement, further enhancing my problem-solving abilities.`,
   },
   {
     year: "August 2018 – July 2021",
     degree: "Bachelor of Computer Applications",
     institute: "Panjab University",
-    details: `Focus: Web Development, Programming Fundamentals, and Database Management
-This program laid the foundation for my coding and problem-solving skills, setting the stage for my journey into software development.`,
+    details: `This program provided a strong foundation in web development, programming fundamentals, and database management. It equipped me with essential coding and problem-solving skills, laying the groundwork for my journey into software development and preparing me for future technical roles.`,
   },
   // {
   //   year: "2009",
