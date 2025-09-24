@@ -6,8 +6,8 @@ import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "/DSC05004s.jpg",
-  heroMobileImage: "/DSC05004scopy.jpg",
+  heroImage: "/pic.jpg",
+  heroMobileImage: "/pic.jpg",
   heroTitleName: "Raghav Kohli",
   heroDesignation: "A Software Developer",
   heroDescriptions: `With a strong foundation in modern software development practices and a knack for solving real-world problems through code, I specialize in building efficient, scalable, and user-friendly applications. I enjoy working with technologies like JavaScript, React, and Node.js, focusing on both frontend and backend development.Driven by continuous learning and innovation, I take pride in developing software that makes an impact. Whether it's creating sleek user interfaces or architecting complex backend services, I am always eager to take on new challenges. Explore my portfolio to see how I transform ideas into working solutions!`,
